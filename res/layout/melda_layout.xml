@@ -4,23 +4,25 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@drawable/background"
-              android:padding="14dp">
+              android:background="@drawable/appwidget_bg"
+              android:padding="2dp">
+
     <TextView android:id="@+id/update_time"
               android:layout_width="match_parent"
               android:layout_height="0dp"
               android:layout_weight="1"
               android:gravity="center_vertical|right"
               android:textColor="#000"
-              android:typeface="serif"
+              android:typeface="sans"
               android:textSize="12sp"/>
+
     <TextView android:id="@+id/temperature"
               android:layout_width="match_parent"
               android:layout_height="0dp"
               android:layout_weight="3"
               android:gravity="center"
               android:textColor="#000"
-              android:typeface="serif"
-              android:textSize="20sp"/>
+              android:typeface="sans"
+              android:textSize="18sp"/>
 
 </LinearLayout>
