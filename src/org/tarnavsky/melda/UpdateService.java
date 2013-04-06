@@ -43,7 +43,7 @@ public class UpdateService extends Service {
                 widgetUpdateIntent.putExtra("temperature", update.second);
                 sendBroadcast(widgetUpdateIntent);
             }
-        }, 0, 20000);
+        }, 0, 120000);
         Log.i("melda", "service: started");
         return Service.START_STICKY;
     }
